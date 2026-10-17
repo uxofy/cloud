@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cloud",
+  "version": "${version}",
+  "name": "Cloud",
+  "description": "Авто-тотем: при открытии инвентаря тотем уходит в левую руку.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.cloud.CloudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
